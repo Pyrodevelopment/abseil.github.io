@@ -26,8 +26,7 @@ url: "https://abseil.io"
 # the subpath of your site. The main Abseil website is not on a subpath
 baseurl: ""
 
-# Not currently used
-twitter_username: abseil
+# ()Get Var
 
 # host: 0.0.0.0 is required for local development.
 host: 0.0.0.0
@@ -43,10 +42,10 @@ timezone: "America/New_York"
 
 # Set these false for production, true for staging server
 future: false
-unpublished: false
-show_drafts: false
+unpublished: true
+show_drafts: true
 
 # Exclusions
 exclude:
   - Gemfile
-  - Gemfile.lock
+  
